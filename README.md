@@ -9,7 +9,7 @@ Link: https://www.tinkercad.com/things/8s9ezU0oZun-led-blink?sharecode=pWJluuEiF
 
 **Question-2:** 
 	
-The potentiometer is an analog device. When connected to the analog pin on the Arduino, the movement of the potentiometer can be interpreted by the analogRead() function which returns a value between 0 and 1024. We can use the map() function to translate the change in potentiometer values to the desired pwm duty cycle and milli seconds changes. The blinking of the led is handles using  millis() so that there is no intrusion in changing of the color as we rotate th epotentiometer.
+The potentiometer is an analog device. When connected to the analog pin on the Arduino, the movement of the potentiometer can be interpreted by the analogRead() function which returns a value between 0 and 1024. We can use the map() function to translate the change in potentiometer values to the desired pwm duty cycle and milli seconds changes. The blinking of the led is handles using  millis() so that there is no intrusion in changing of the color as we rotate the potentiometer.
 
 Link: https://www.tinkercad.com/things/cinpAkhd2XW-led?sharecode=MGje-90XqrW1KJXCRnkISf6Fm4Z0WHjLp4lhzZxmQpw
 
