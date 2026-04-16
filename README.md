@@ -1,5 +1,9 @@
 # MaRS-Tasks
 
+**BY Akash K**
+
+**EC25B1042**
+
 # Task-1
 **Question-1:**
 	
@@ -19,6 +23,12 @@ The code uses the random() function to get a delay between 2-5 seconds. Then the
 
 Link: https://www.tinkercad.com/things/eiIDkg1VYNa-reaction-time?sharecode=CscrUGsr6cRBZgihPXdGKREZ-WzGZwDLHVYZgu9ID1g
 
-# Proof of Working
+**Proof of Working**
 
 https://drive.google.com/file/d/148ZiLvs2cPxtdrI6DDdLxguIGlBN3dWO/view?usp=sharing
+
+# Task-2
+
+The logic of the code is that when an object is detected a variable is updated to LOW state indicating an object is in fron the IR sensor. When the object is removed, The sensor reading again becomes HIGH, and the condition for the second if statement to be satsfied and results in the count being incresed by 1. The total count is also displayed in the LCD and serial. 
+
+The task-2's Arduino cpp code is uploaded as Task-2.ino. 
